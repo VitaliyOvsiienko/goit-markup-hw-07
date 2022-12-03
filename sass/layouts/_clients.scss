@@ -42,7 +42,8 @@
 
     color: var(--soc-icon);
 
-    transition: color var(--anim-slow) border-color var(--anim-slow) outline-color var(--anim-slow) ;
+    transition: color var(--anim-slow) ;
+
 
 &:hover,
 &:focus {
@@ -55,12 +56,9 @@
     
     outline-color: var(--primery-accent);
 }
+
 }
 
 .clients__icon {
     fill: currentColor;
 }
-
-
-
-

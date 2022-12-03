@@ -7,23 +7,15 @@
 
     display: flex;
     gap: 50px;
-}
 
+}
 
 .link {
 
     padding-top: 32px;
     padding-bottom: 32px;
 
-&.current {
-
-    position: relative;
-    
-    color: var(--primery-accent);
 }
-
-}
-
 
 .nav-list .link {
 
@@ -31,10 +23,18 @@
 
 }
 
+.link.current {
+
+    color: var(--primery-accent);
+
+    position: relative;
+
+}
+
 .link-item {
 
     transition: color var(--anim-slow);
-
+    
 &:hover,
 &:focus {
     

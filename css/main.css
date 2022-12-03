@@ -110,13 +110,14 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
 }
-.link.current {
-  position: relative;
-  color: var(--primery-accent);
-}
 
 .nav-list .link {
   color: var(--primery-text-color);
+}
+
+.link.current {
+  color: var(--primery-accent);
+  position: relative;
 }
 
 .link-item {
@@ -441,8 +442,8 @@ img {
   border: 1px solid #AFB1B8;
   border-radius: 4px;
   color: var(--soc-icon);
-  -webkit-transition: color var(--anim-slow) border-color var(--anim-slow) outline-color var(--anim-slow);
-  transition: color var(--anim-slow) border-color var(--anim-slow) outline-color var(--anim-slow);
+  -webkit-transition: color var(--anim-slow);
+  transition: color var(--anim-slow);
 }
 .clients__link:hover, .clients__link:focus {
   border-color: var(--primery-accent);

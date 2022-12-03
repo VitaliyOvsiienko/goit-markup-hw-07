@@ -7,13 +7,13 @@
 @import './components/header-logo';
 @import './layouts/navigation';
 @import './layouts/contacts-header';
-@import './components/hero';
+@import './layouts/hero';
 @import './components/hero-btn';
-@import './components/features';
-@import './components/work';
-@import './components/team';
+@import './layouts/features';
+@import './layouts/work';
+@import './layouts/team';
 @import './layouts/team-soc';
-@import './components/clients';
+@import './layouts/clients';
 @import './layouts/footer';
 @import './components/footer-logo';
 @import './layouts/contacts-footer';
@@ -21,7 +21,7 @@
 @import './layouts/contacts-soc';
 @import './components/portfolio-container';
 @import './components/portfolio-btn';
-@import './components/info';
+@import './layouts/info';
 @import './components/backdrop';
 @import './components/modal';
 @import './components/modal-close';
